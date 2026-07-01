@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap");
+
+/* Modern Tailwind v4 import */
+@import "tailwindcss";
+
+/* Define our custom theme variables directly in CSS */
+@theme {
+  --color-brand-dark: #0f172a;
+  --color-brand-light: #f8fafc;
+  --color-brand-accent: #10b981;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base styling using standard CSS variables to avoid compilation errors */
+body {
+  background-color: var(--color-brand-dark);
+  color: var(--color-brand-light);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-brand-accent);
+  color: white;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
