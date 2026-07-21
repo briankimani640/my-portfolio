@@ -1,4 +1,4 @@
-# Use the link below to view my portf
+# Use the link below to view my portfolio
 https://brian-pi.vercel.app
 # React + TypeScript + Vite
 
