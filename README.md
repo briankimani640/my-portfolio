@@ -32,6 +32,6 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 
-thiss is my portfolio showing all skills and eperince.
+this is my portfolio showing all skills and eperince all in one place.
 
 
